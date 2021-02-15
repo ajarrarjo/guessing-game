@@ -13,8 +13,8 @@ function askingForInput() {
 
     let Experiance = prompt('Do you think that I worked before in the IT Field? answer with yes/no - y/n');
     answerAfterCheck = checkInput(Experiance, 'Do you think that I worked before in the IT Field? answer with yes/no - y/n');
-    alert((answerAfterCheck === 'yes' || answerAfterCheck === 'y') ? 'you are correct' : 'how did you know? is it because I mentioned that I worked in different fields!!');
-    // console.log((answerAfterCheck === 'yes' || answerAfterCheck === 'y')? 'how did you know? is it because I mentioned that I worked in different fields!!');
+    alert((answerAfterCheck === 'yes' || answerAfterCheck === 'y') ? 'you are correct' : 'I worked for 7 years in this field ');
+    // console.log((answerAfterCheck === 'yes' || answerAfterCheck === 'y')? 'I worked for 7 years in this field');
 
     let Health = prompt('Do you think i\'m overweight? answer with yes/no - y/n');
     answerAfterCheck = checkInput(Health, 'Do you think i\'m overweight? answer with yes/no - y/n');
@@ -24,11 +24,11 @@ function askingForInput() {
 
     let Mentalhealth = prompt('Do you think i am smart? answer with yes/no - y/n');
     answerAfterCheck = checkInput(Mentalhealth, 'Do you think i am smart? answer with yes/no - y/n');
-    alert((answerAfterCheck === 'yes' || answerAfterCheck === 'y') ? 'you are correct' : 'I guess so, I am smart!');
-    // console.log((answerAfterCheck === 'yes' || answerAfterCheck === 'y')? 'you are correct': 'I guess so, I am smart!');
+    alert((answerAfterCheck === 'yes' || answerAfterCheck === 'y') ? 'you are correct' : '  I am smart!');
+    // console.log((answerAfterCheck === 'yes' || answerAfterCheck === 'y')? 'you are correct': ' I am smart!');
 
-    let Personalitychick = prompt('Am I a optimistic? answer with yes/no - y/n');
-    answerAfterCheck = checkInput(Personalitychick, 'Am I a optimistic? answer with yes/no - y/n');
+    let Personalitychick = prompt('Am I pessimistic? answer with yes/no - y/n');
+    answerAfterCheck = checkInput(Personalitychick, 'Am I pessimistic? answer with yes/no - y/n');
     alert((answerAfterCheck === 'n' || answerAfterCheck === 'no') ? 'you are correct' : 'I am optimistic');
     // console.log((answerAfterCheck === 'yes' || answerAfterCheck === 'y')? 'you are correct': 'I am optimistic');
 
