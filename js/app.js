@@ -1,6 +1,6 @@
 'use strict';
 
-let score;
+let score = 0;
 
 
 function wlecomingUser() {
@@ -91,5 +91,3 @@ if (arr[0] === favColor || arr[1] === favColor || arr[2] === favColor || arr[3] 
   alert('my fav colors are' + ' ' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3]);
 }
 alert('your scoor is: ' + score + ' /7');
-
-
